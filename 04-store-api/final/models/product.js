@@ -29,6 +29,7 @@ const productSchema = new mongoose.Schema({
     },
     // enum: ['ikea', 'liddy', 'caressa', 'marcos'],
   },
+  timestamps: true;
 })
 
 module.exports = mongoose.model('Product', productSchema)
